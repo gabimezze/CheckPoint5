@@ -3,18 +3,20 @@
 @tailwind utilities;
 
 @layer components {
-  .cabecalho {
-    @apply h-20;
+  header {
+    @apply flex justify-between items-center;
   }
-
+  .cabecalho h1{
+    @apply text-3xl text-left ml-4;
+  }
   .cabecalho li {
-    @apply inline m-5;
+    @apply inline m-5 text-right;
   }
 
   .cabecalho li a:hover {
-    @apply bg-blue-500 rounded-sm text-white;
+    @apply bg-blue-500 rounded-sm text-white flex space-x-4;
   }
   footer {
-    @apply m-32;
+    @apply m-96 mb-0 bg-gray-400 rounded-sm;
   }
 }
