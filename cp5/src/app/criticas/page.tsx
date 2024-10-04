@@ -3,10 +3,9 @@ import Image from "next/image"
 
 export default function Criticas() {
     return (
-        <div>
-            <h1>Críticas</h1>
-            <h2>Críticas e Repercussões de Worlds in Collision</h2>
-            <Image src={debate} alt="Debate" width={400} height={270} />
+        <div className="pages">
+            <h1>Críticas e Repercussões de Worlds in Collision</h1>
+            <a><Image src={debate} alt="Debate" width={400} height={270} /></a>
             <p>
                 Apesar da popularidade do livro, Velikovsky enfrentou severas críticas da comunidade científica, que considerava suas teorias não baseadas em evidências empíricas. <br />
                 <ul>
