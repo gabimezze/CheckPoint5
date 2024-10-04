@@ -1,4 +1,4 @@
-import type import "@/app/globals.css";
+import "@/app/globals.css";
 import Cabecalho from "@/components/Cabecalho/Cabecalho";
 import Rodape from "@/components/Rodape/Rodape";
 import type { Metadata } from "next";
