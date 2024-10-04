@@ -5,7 +5,7 @@ export default function Criticas() {
     return (
         <div>
             <h1>Críticas</h1>
-            <h2>Críticas e Repercussões de "Worlds in Collision"</h2>
+            <h2>Críticas e Repercussões de Worlds in Collision</h2>
             <Image src={debate} alt="Debate" width={400} height={270} />
             <p>
                 Apesar da popularidade do livro, Velikovsky enfrentou severas críticas da comunidade científica, que considerava suas teorias não baseadas em evidências empíricas. <br />
