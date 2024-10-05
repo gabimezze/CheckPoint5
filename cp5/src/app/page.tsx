@@ -1,13 +1,15 @@
+import Image from "next/image"
+import book from "@/img/book.jpg"
+import bookum from "@/img/bookum.jpg"
+import bookdois from "@/img/bookdois.jpg"
 
 export default function Home() {
 
   return (
-    <div>
-       {/* <h1>Home {tema === "light" ? "light" : "dark"}</h1> */}
-
-      {/* <button className="mt-2 p-2 bg-blue-500 text-white rounded-md">
-        Alternar Tema
-      </button> */}
+    <div className="img-home">
+       <a><Image src={book} alt="book" width={400} height={270} /></a>
+       <a><Image src={bookum} alt="book" width={400} height={270} /></a>
+       <a><Image src={bookdois} alt="book" width={400} height={270} /></a>
     </div>
 
   )
