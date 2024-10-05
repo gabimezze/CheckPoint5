@@ -28,7 +28,7 @@
     @apply text-2xl mb-5;
   }
   .pages a {
-    @apply inline-block px-4 py-3 bg-white bg-opacity-40 text-white font-semibold rounded hover:bg-orange-500;
+    @apply inline-block px-4 py-3 bg-orange-400 bg-opacity-40 text-white font-semibold rounded hover:bg-orange-400;
   }
   .img-home {
     @apply m-32 justify-center grid grid-cols-1 md:grid-cols-3 gap-6;
