@@ -1,5 +1,6 @@
 import Image from "next/image"
 import venusterra from "@/img/venuseterra.jpg"
+
 export default function Demonstracao() {
     return (
         <div className="pages">

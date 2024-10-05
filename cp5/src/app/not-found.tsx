@@ -1,5 +1,6 @@
 import Image from "next/image"
 import erro from "@/img/close.png"
+
 export default function NotFound() {
     return (
         <div>
