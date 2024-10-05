@@ -16,7 +16,7 @@
     @apply text-orange-500;
   }
   .rodape {
-    @apply bg-orange-600 bg-opacity-20 text-white container mx-auto flex justify-center mt-96 mb-0;
+    @apply bg-orange-600 bg-opacity-20 text-white container mx-auto flex justify-center mt-32 mb-0;
   }
   .pages {
     @apply ml-6 p-7;
@@ -29,5 +29,8 @@
   }
   .pages a {
     @apply inline-block px-4 py-3 bg-white bg-opacity-40 text-white font-semibold rounded hover:bg-orange-500;
+  }
+  .img-home {
+    @apply m-32 justify-center grid grid-cols-1 md:grid-cols-3 gap-6;
   }
 }
