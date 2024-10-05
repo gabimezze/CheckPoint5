@@ -33,4 +33,13 @@
   .img-home {
     @apply m-32 justify-center grid grid-cols-1 md:grid-cols-3 gap-6;
   }
+  .erro {
+    @apply bg-gray-500 bg-opacity-20 flex items-center justify-center h-screen;
+  }
+  .erro h1 {
+    @apply text-9xl font-bold text-orange-800 text-opacity-20;
+  }
+  .erro p {
+    @apply text-2xl md:text-4xl font-medium text-orange-700 mt-4 text-opacity-40;
+  }
 }
